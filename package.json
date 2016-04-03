@@ -1,0 +1,49 @@
+{
+    "name": "gitbook-plugin-cnzz",
+    "version": "0.0.1",
+    "description": "CNZZ Analytics tracking for your gitbook.",
+    "main": "index.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/linfuyan/gitbook-plugin-cnzz"
+    },
+    "bugs": {
+        "url": "https://github.com/linfuyan/gitbook-plugin-cnzz/issues"
+    },
+    "author": {
+        "name": "linfuyan",
+        "email": "lin0301fy2001@gmail.com",
+        "url": "http://linfuyan.com"
+    },
+    "readmeFilename": "README.md",
+    "engines": {
+        "gitbook": ">=2.5.0"
+    },
+    "gitbook": {
+        "properties": {
+            "visible": {
+                "type": "boolean",
+                "default": false,
+                "description": "is the CNZZ analytics icon visible on site"
+            },
+            "style": {
+                "type": "string",
+                "default": "0",
+                "description": "style for CNZZ analytics shown on site"
+            },
+            "siteid": {
+                "type": "string",
+                "required": true,
+                "description": "you site id for CNZZ analytics"
+            }
+        }
+    },
+    "homepage": "https://github.com/linfuyan/gitbook-plugin-cnzz",
+    "license": "MIT",
+    "keywords": [
+        "gitbook",
+        "plugin",
+        "cnzz",
+        "analytics"
+    ]
+}
