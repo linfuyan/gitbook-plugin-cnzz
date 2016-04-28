@@ -1,0 +1,8 @@
+{% extends template.self %}
+
+{% block javascript %}
+    {{ super() }}
+    <div style="display:{% if config.pluginsConfig.cnzz.visible %}inherit{% else %}none{% endif %}">
+        <script src="http://s95.cnzz.com/z_stat.php?id={{ config.pluginsConfig.cnzz.siteid }}&web_id={{ config.pluginsConfig.cnzz.siteid }}" language="JavaScript"></script>
+    </div>
+{% endblock %}
