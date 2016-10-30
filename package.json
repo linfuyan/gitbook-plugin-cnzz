@@ -1,6 +1,6 @@
 {
     "name": "gitbook-plugin-cnzz",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "CNZZ Analytics tracking for your gitbook.",
     "main": "index.js",
     "repository": {
